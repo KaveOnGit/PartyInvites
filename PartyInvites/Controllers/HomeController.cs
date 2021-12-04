@@ -31,7 +31,7 @@ namespace PartyInvites.Controllers
             else if (hour >4 && hour <= 12) ViewBag.Greeting = "Good Мorning";
             else if (hour > 12 && hour <= 17) ViewBag.Greeting = "Good Day";
             else  ViewBag.Greeting = "Good Evening";
-
+            int i = 22;
             //return this.View("MyView");******************
             return this.View("Index");
         }
