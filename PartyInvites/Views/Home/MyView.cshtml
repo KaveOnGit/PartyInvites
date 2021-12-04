@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>
+        Index
+    </title>
+</head>
+<body>
+    <div>
+        <b>@ViewBag.Greeting</b> World (from the view)
+        <p>
+            We're going to have an exciting party. <br />
+            (То do: sell it better. Add pictures or something.)
+        </p>
+            <a href="Home/RsvpForm">RSVP Now (using simple a href tag)</a>
+            
+                
+            <a asp-action="RsvpForm">RSVP Now (using Tag Helper asp-action)</a>
+</div>
+</body>
+</html>
